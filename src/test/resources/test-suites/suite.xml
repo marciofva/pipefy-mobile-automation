@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" >
+
+	<listeners>
+		<listener class-name="com.pipefy.listeners.Listener" />
+	</listeners>
+
+	<test name="Android Tests">
+		<parameter name="platform" value="android" />
+		<parameter name="deviceName" value="Galaxy" />
+		<classes>
+   			<class name="com.pipefy.tests.LoginTest" />
+   			<class name="com.pipefy.tests.SearchTest" />
+		</classes>
+	</test>
+</suite>
