@@ -6,8 +6,8 @@ public class LoginCredentials {
 
 	public static HashMap<String, String> pipefyUser() {
 		HashMap<String, String> map = new HashMap<String, String>();
-		map.put("user", "marcio.fva87@gmail.com");
-		map.put("password", "fk6R@xz3A");
+		map.put("user", "test@test.com");
+		map.put("password", "3445hg@D");
 		return map;
 	}
 }
