@@ -1,10 +1,10 @@
-# Mac
+## Mac
 .DS_Store
 
-# Maven
+## Maven
 target/
 
-# Eclipse
+## Eclipse
 .metadata
 .classpath
 .project
